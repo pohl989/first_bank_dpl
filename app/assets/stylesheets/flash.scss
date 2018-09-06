@@ -1,0 +1,22 @@
+.alert{
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 1px 1px hsla(0°, 0%, 80%, 30%);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    1px 1px 1px 1px hsla(0°, 0%, 80%, 30%);  /* Firefox 3.5 - 3.6 */
+  box-shadow:         1px 1px 1px 1px hsla(0°, 0%, 80%, 30%); 
+  margin: 15px;
+}
+
+
+.alert-notice {
+  background-color: lightgreen;
+}
+
+.alert-alert {
+  background-color: coral;
+}
+
+.hide {
+  display: none;
+}
